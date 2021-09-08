@@ -1,0 +1,21 @@
+public class Variable { 
+    public static void main(String[] args) {
+        byte memory=8;
+        short ssd=256;
+        int files=1_500_000;
+        long speed=100;
+        float frequency=2.8f;
+        double version=1901.5678;
+        char os='w';
+        boolean online=true;
+        
+        System.out.println("memory = "+memory+" Gb");
+        System.out.println("ssd = "+ssd+" Gb");
+        System.out.println("files = "+files);
+        System.out.println("speed = "+speed+" mbps");
+        System.out.println("frequency = "+frequency+" ghz");
+        System.out.println("version = "+version);
+        System.out.println("os = "+os);
+        System.out.println("online = "+online);
+    }
+}
