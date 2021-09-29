@@ -1,6 +1,6 @@
 public class ConditionalStatement {
     public static void main(String[] args) {
-        System.out.println("Онформація про особу");
+        System.out.println("Інформація про особу");
     // https://github.com/ichimax/startjava //
     int age=15;
     if(age > 20) {
