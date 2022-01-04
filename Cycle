@@ -1,0 +1,25 @@
+public class Cycle {
+    public static void main(String[] args) {
+
+        for(int i=0;i<21;i++){
+            System.out.println("for " + i);
+        }
+
+        int m = 6;
+        while(m > -8) {
+            System.out.println("while " + m);
+            m = m-2;
+        }
+
+        int n=11;
+        int sum;
+        sum=0;
+        do {
+            sum += n;
+            n +=2;
+            }
+            while(n <= 19);
+                System.out.println("sum (do...while) = "+ sum);
+    }
+
+}
